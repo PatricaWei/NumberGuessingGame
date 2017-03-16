@@ -269,19 +269,21 @@ void GamePlayer::decreaseTicketCount()
  Since I know the number I am guessing is between 0 to one million, if I try
  it sequencially, the worst case will take me one million and one tries to
  find that number. However, if I ask smart questions and adjust my choices
- accordingly, it will take me at most 20 tries to find it. Thanks for the
- Binary Search algorithm whever I got the idea!
+ accordingly, it will take me at most 20 tries to find it. 
 
  I will put the one million and one numbers into an sorted array. Each time
  I am going to pick the median number from that array and ask this question:
  "Is that number greater than 'the median'"? Depends on the "Yes or No" answer,
  I will throw away half of the numbers and keep the other half as the new input.
  Then I will find the median of this list and ask question again. It will take
- me at most 20 tries to narrow down the list into one number. That will be it.
+ me at most 20 tries to narrow down the list into one number. 
+ 
+ This is because one million is roughly 2^20.
+ 
  If I am lucky, one of the median I pick is that number, then I am done.
  So, I am guaranteed to win if I buy 20 tickets.
 
- I spent $2,000,000 and guaranted to earn $5,000,000 back. It is worse doing.
+ I spent $2,000,000 and guaranted to earn $5,000,000 back. It is worth doing.
 
  -----------------------------------------------------------------------------*/
 

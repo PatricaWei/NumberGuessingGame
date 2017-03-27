@@ -264,12 +264,12 @@ void GamePlayer::decreaseTicketCount()
 
 /*-------The Reason Why I Choose to Play This Game  --------------------------
 
- As a player, I accept the rules of the game and choose to play it.
+I would play this game.
 
  Since I know the number I am guessing is between 0 to one million, if I try
  it sequencially, the worst case will take me one million and one tries to
- find that number. However, if I ask smart questions and adjust my choices
- accordingly, it will take me at most 20 tries to find it. 
+ find that number. However, if adjust my choices according to what the program 
+ tells me, it will take me at most 20 tries to find it. 
 
  I will put the one million and one numbers into an sorted array. Each time
  I am going to pick the median number from that array and ask this question:
@@ -283,7 +283,8 @@ void GamePlayer::decreaseTicketCount()
  If I am lucky, one of the median I pick is that number, then I am done.
  So, I am guaranteed to win if I buy 20 tickets.
 
- I spent $2,000,000 and guaranted to earn $5,000,000 back. It is worth doing.
+ I spend $2,000,000 and am guaranted to earn $5,000,000 back, so it is worth
+ playing. 
 
  -----------------------------------------------------------------------------*/
 
